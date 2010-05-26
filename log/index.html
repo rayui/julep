@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>Proxy logging</title>
+		<meta http-equiv="Content-type" content="text/html; charset=ISO-8859-1">
+		<meta http-equiv="Content-Language" content="en-us">
+	
+		<meta name="ROBOTS" content="ALL" />
+		
+		<script type="text/javascript" src="js/lib/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="js/lib/jsont.js"></script>
+		<script type="text/javascript" src="js/log.js"></script>
+		
+	</head>
+	<body>
+		<div class="content">
+			<h1>Proxy log results</h1>
+			<div id="formWrap">
+				<form action="#">
+					<select id="selectLog">
+						<option>-- Select a log file --</option>
+						<option value="proxy.access.log">proxy.access.log</option>
+						<option value="proxy.error.log">proxy.error.log</option>
+						<option value="proxy.log.access.log">proxy.log.access.log</option>
+						<option value="proxy.log.access.log">proxy.log.error.log</option>
+					</select>
+				</form>
+			</div>
+			<div id="results">
+				
+			</div>
+		</div>
+	</body>
+</html>
